@@ -18,7 +18,7 @@
 #-------------------------------------------------------------------------------
 # Do not change the following system generated value. 
 #-------------------------------------------------------------------------------
-oracle.install.responseFileVersion=/oracle/install/rspfmt_dbinstall_response_schema_v11.2.0
+oracle.install.responseFileVersion=/oracle/install/rspfmt_dbinstall_response_schema_v11_2_0
 
 #-------------------------------------------------------------------------------
 # Specify the installation option.
@@ -128,21 +128,6 @@ oracle.install.db.DBA_GROUP=dba
 # The value to be specified for OSOPER group is optional.
 #------------------------------------------------------------------------------
 oracle.install.db.OPER_GROUP=dba
-
-#------------------------------------------------------------------------------
-# The BACKUPDBA_GROUP is the OS group which is to be granted OSBACKUPDBA privileges.
-#------------------------------------------------------------------------------
-oracle.install.db.BACKUPDBA_GROUP=dba
-
-#------------------------------------------------------------------------------
-# The DGDBA_GROUP is the OS group which is to be granted OSDGDBA privileges.
-#------------------------------------------------------------------------------
-oracle.install.db.DGDBA_GROUP=dba
-
-#------------------------------------------------------------------------------
-# The KMDBA_GROUP is the OS group which is to be granted OSKMDBA privileges.
-#------------------------------------------------------------------------------
-oracle.install.db.KMDBA_GROUP=dba
 
 #------------------------------------------------------------------------------
 # Specify whether to enable the user to set the password for
